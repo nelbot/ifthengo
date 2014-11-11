@@ -1,0 +1,182 @@
+body {
+  background-color: #ecf0f1;
+    font-family: 'Courier', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #000000;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #00ff00;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 25px;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+.w {
+	margin-top: 60px;
+}
+.w i {
+	font-size: 26px;
+	padding: 12px;
+}
+
+.btn-default {
+    color: #ffffff;
+    background-color: #4099FF;
+}
+
+.go-button {
+    clear: both;
+    padding-top: 45px; 
+}
+
+.btn-lg {
+    color: #ffffff;
+    background-color: #4099FF;
+}
+
+.form-control {
+    background-color: black;
+}
+
+::-webkit-input-placeholder {
+    color:    #999;
+}
+:-moz-placeholder {
+    color:    #999;
+}
+::-moz-placeholder {
+    color:    #999;
+}
+:-ms-input-placeholder {
+    color:    #999;
+}
+
+/* Different color for some fields */
+
+#name_2::-webkit-input-placeholder,
+#textarea_2::-webkit-input-placeholder
+{
+  color:    #00ff00;
+}
+
+#name_2:-moz-placeholder,
+#textarea_2:-moz-placeholder 
+{
+  color:    #00ff00;
+}
+
+#name_2::-moz-placeholder,
+#textarea_2::-moz-placeholder 
+{
+  color:    #00ff00;
+}
+
+#name_2:-ms-input-placeholder,
+#textarea_2:-ms-input-placeholder 
+{
+  color:    #00ff00;
+}
+
+.navbar-header {
+    padding-top: 35px; 
+}
+
+.navbar-text {
+    padding-top: 35px;
+}
+
+.formbackground {
+    background: url(https://s3.amazonaws.com/nelsonpersonal/if+then+go+brackets.png) no-repeat center top;
+    margin-top: 0px;
+    padding-top:45px; /* moves form up and down within brackets */
+    text-align:center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px; /* adjust size of brackets */
+    width: 100%;
+    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#commit {
+    background-color: red;
+}
+
+#commit:hover {
+    color: #00ff00;
+}
+
+.navbar-link {
+    color: red;
+}
